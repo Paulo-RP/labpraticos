@@ -69,4 +69,8 @@ family["Neide"] = {
     "weight": 60
 }
 
-#print(f"Mebros: {list(family.keys())}")
+print(f"Mebros: {list(family.keys())}")
+
+del family["Neide"] # Deleta 1 elemento do dicionário python
+print(family)
+print(len(family)) #Mostra o tamanho da lista dicionário
